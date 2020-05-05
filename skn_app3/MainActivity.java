@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 reg=e2.getText().toString();
                 dept=s.getSelectedItem().toString();
 
-                Intent i=new Intent(MainActivity.this,Main2Activity.class);
+                Intent i=new Intent(MainActivity.this,MainActivity2.class);
 
                 i.putExtra("name_key",name);
                 i.putExtra("reg_key",reg);
